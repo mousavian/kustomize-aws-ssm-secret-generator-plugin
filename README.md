@@ -23,7 +23,7 @@ secretGenerator:
           - UPPERCASE_KEY=true                # Optional
 ```
 
-Assuming you have two parameter under `/path/to/my/secrets/` such as:
+Assuming you have two parameters under `/path/to/my/secrets/` such as:
 
 `/path/to/my/secrets/key1` with value of `value1` and
 
@@ -50,3 +50,5 @@ So to test you have to build it from master branch and run it with `enable_alpha
 ```
 kustomize --enable_alpha_goplugins_accept_panic_risk build ./kustomization.yaml | kubectl apply -f -
 ```
+
+[More info](https://github.com/kubernetes-sigs/kustomize/blob/cfb0c5e/examples/kvSourceGoPlugin.md#generating-secrets)
