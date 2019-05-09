@@ -5,7 +5,7 @@ This plugin can be attached to [Kustomize](https://kustomize.io/) to generate Ku
 This can be useful for CI/CD.
 
 ## Usage
-Download latest `aws-ssm.so` file from releases and put it in your Kustomize plugin directory (default to `~/.config/kustomize/plugin/kvSources/`)
+Download latest [aws-ssm.so](https://github.com/mousavian/kustomize-aws-ssm-secret-generator-plugin/releases/download/v0.1/aws-ssm.so) file from releases and put it in your Kustomize plugin directory (default to `~/.config/kustomize/plugin/kvSources/`)
 
 and use it in your kustomization file:
 ```yaml
